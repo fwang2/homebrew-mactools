@@ -5,21 +5,17 @@ class Haba < Formula
   
   depends_on "opencv" => "4.0.0"
 
+   def haba_envs
+    <<~EOS
+      export HABA_HOME="#{prefix}"
+    EOS
+   end
+
+
   def install
     bin.install "src/cli" => "cli"
     prefix.install "models" 
+    envs.write(haba_envs) unless envs.exist?
   end
-
-   def haba_home
-    HOMEBREW_PREFIX/"haba"
-   end
-
-   def caveats; <<~EOS
-
-      #{haba_home}
-
-  EOS
-  end
-
 end
 
