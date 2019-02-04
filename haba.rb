@@ -8,6 +8,19 @@ class Haba < Formula
 
   def install
     bin.install "src/cli" => "cli"
+    prefix.install "models" 
   end
+
+   def haba_home
+    HOMEBREW_PREFIX/"haba"
+   end
+
+   def caveats; <<~EOS
+
+      #{haba_home}
+
+  EOS
+  end
+
 end
 
