@@ -7,7 +7,7 @@ class Haba < Formula
   depends_on opencv => "4.0.1"
 
   def install
-    bin.install "src/cli" => "habacli"
+    bin.install "src/cli" => "cli"
   end
 end
 
