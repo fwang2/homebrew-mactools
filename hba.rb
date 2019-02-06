@@ -1,4 +1,3 @@
-<<<<<<< HEAD:hba.rb
 class Hba < Formula
   desc "Demo: A platform of human behavial analysis"
   homepage "https://github.com/fwang2/hba4mac"
