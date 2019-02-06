@@ -1,8 +1,8 @@
 class Hba < Formula
   desc "Demo: A platform of human behavial analysis"
   homepage "https://github.com/fwang2/hba4mac"
-  url "https://github.com/fwang2/hba4mac/archive/0.4.tar.gz"
-  sha256 "0633c933499e38ec8a515b724dfa9530e8b9726d2979a8750e5426c1bc1914f9"
+  url "https://github.com/fwang2/hba4mac/archive/0.3.tar.gz"
+  shasum "d0f65d400ad6db4e07ce95d8a3082371342b9797519981493f3117a4eeffb4b5"
 
   depends_on "opencv" => "4.0.0"
 
