@@ -1,5 +1,9 @@
-# Some mac tools
+# Mac tools
 
+
+to tap this repo:
+
+    brew tap fwang2/mactools
 
 
 generate sha256 checksum
@@ -10,7 +14,9 @@ to debug a formula
 
     brew install --debug --verbose darshan-util.rb
 
-to tap this:
+to have a formula with -
 
-    brew tap fwang2/mactools
-    
+    DarshanUtil < Formula:
+
+see `darshan-util.rb` for example.
+
