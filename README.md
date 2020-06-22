@@ -6,7 +6,6 @@ According to [brew
 tap](https://github.com/Homebrew/brew/blob/master/docs/Taps.md), this repo is
 named as `fwang2/homebrew-tools` on github.
 
-
 To tap this repo:
 
     brew tap fwang2/tools
